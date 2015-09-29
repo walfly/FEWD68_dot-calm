@@ -1,0 +1,96 @@
+/* WEEK 1 HOMEWORK CSS*/
+
+h1 {
+	text-transform: uppercase;
+	font-weight: 100;
+	font-size: 28px; line-height: 28px; margin-bottom: 8px;
+}
+
+h1 span{
+	font-weight: 800;
+}
+
+h2 {
+	text-transform: uppercase;
+	font-weight: 100;
+	font-size: 21px; line-height: 30px; margin-bottom: 4px;
+}
+
+header {
+	background-image: url("assets/splash.jpg");
+	height: 557px;
+}
+
+body {
+	background-color: #222;
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+nav {
+	padding: 80px;
+}
+
+.column {
+	background-color: #111;
+	border-top: 1px dashed #ddd;
+	display: inline-block;
+	width: 300px;
+	height: 300px;
+	box-sizing: border-box;
+}
+
+.column p {
+	margin: 20px 20px 40px 20px;
+	text-align: center;
+}
+
+.column h3 {
+	font-weight: 800;
+	margin: 20px;
+	text-align: center;
+}
+
+.column.middle {
+	border-left: 1px dashed #ddd;
+	border-right: 1px dashed #ddd;
+	width: 635px;
+}
+
+footer {
+	background-color: #999;
+	height: 50px;
+}
+
+footer div{
+	display: inline-block;
+	width: 50%;
+	color: white;
+}
+footer h6{
+	color: #fff;
+}
+
+header.portfolio {
+	background-image: url("assets/splash_portfolio.jpg");
+	height: 557px;
+}
+
+.portfolio h1 {
+	color: #111;
+	font-weight: 800;
+	font-size: 48px;
+	padding-top: 300px;
+	text-align: center;
+}
+
+/* .portfolio div {
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+*/
+
+
+
