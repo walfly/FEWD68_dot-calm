@@ -1,0 +1,158 @@
+/* WEEK 2 HOMEWORK CSS*/
+
+body {
+	background-image: url("assets/splash.jpg");
+	background-color: #111;
+	background-size: cover;
+	background-attachment: fixed; 
+}
+
+header {
+	position: fixed;
+
+	background-color: rgba(0, 0, 0, 0.5);
+	height: 30px;
+	width: 100%;
+}
+
+header nav { 
+	margin: 0 auto;
+	width: 980px;
+	height: 30px;
+}
+
+header ul {
+	float: right;
+	padding: 5px;
+}
+
+header a {
+	color: #bbb;
+	text-transform: uppercase;
+}
+
+header a:hover {
+	cursor: pointer;
+	color: #fff;
+}
+
+header h6 {
+	text-transform: uppercase;
+}
+
+.main_nav li {
+	display: inline-block;
+	margin: 0px 10px;
+}
+
+div.lilfix {
+	height: 1px;
+}
+
+div.logo {
+	margin: 200px auto 200px auto;
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 50px;
+	width: 500px;
+}
+
+.logo img {
+	width: 60%;
+	margin:20%;
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+
+.logo h4 {
+	color: #fff;
+	text-align: center;
+	text-shadow: 2px 2px 2px #000;
+	/*text-transform: uppercase;*/
+}
+
+section.page {
+	background-color: transparent;
+	margin: 0px auto;
+	width: 980px;
+}
+
+section.backdrop {
+	background-color: #111;
+	border-top: 1px dashed #ddd;
+}
+
+.column {
+	display: inline-block;
+	vertical-align: top;
+
+	background-color: #111;
+	box-sizing: border-box;
+	width: 33.3%;
+	min-height: 400px;
+}
+
+.column img {
+	display: block;
+	opacity: 0.5;
+	margin: 0px auto;
+	padding-top: 40px;
+	width: 40px;
+
+}
+
+.column p {
+	margin: 40px;
+	margin-top: 20px;
+	color: #bbb;
+	text-align: center;
+
+}
+
+.column h3 {
+	font-weight: 800;
+	margin: 20px;
+	text-align: center;
+}
+
+.column.middle {
+	border-left: 1px dashed #ddd;
+	border-right: 1px dashed #ddd;
+}
+
+footer {
+	background-color: #aaa;
+	height: 60px;
+	min-width: 980px;
+}
+
+footer div{
+	display: inline-block;
+	width: 50%;
+	color: white;
+}
+footer h6{
+	color: #fff;
+}
+
+header.portfolio {
+	background-image: url("assets/splash_portfolio.jpg");
+	height: 557px;
+}
+
+.portfolio h1 {
+	color: #111;
+	font-weight: 800;
+	font-size: 48px;
+	padding-top: 300px;
+	text-align: center;
+}
+
+/* .portfolio div {
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+*/
+
+
+

@@ -35,10 +35,12 @@ nav {
 .column {
 	background-color: #111;
 	border-top: 1px dashed #ddd;
+	border-bottom: 1px dashed #ddd;
 	display: inline-block;
-	width: 300px;
+	width: 33.3%;
 	height: 300px;
 	box-sizing: border-box;
+	vertical-align: top;
 }
 
 .column p {
@@ -53,9 +55,10 @@ nav {
 }
 
 .column.middle {
-	border-left: 1px dashed #ddd;
+	/*border-bott: 1px dashed #ddd;*/
 	border-right: 1px dashed #ddd;
-	width: 635px;
+	box-sizing: border-box;
+	width: 66.3%;
 }
 
 footer {
@@ -83,6 +86,16 @@ header.portfolio {
 	font-size: 48px;
 	padding-top: 300px;
 	text-align: center;
+}
+
+footer {
+	padding: 40px;
+	text-align: center;
+}
+
+footer h6 {
+	font-size: 12px;
+	line-height: 15px;
 }
 
 /* .portfolio div {

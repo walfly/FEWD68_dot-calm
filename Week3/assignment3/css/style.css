@@ -51,7 +51,9 @@ body {
      line-height: 1.4;
      font-family: Helvetica, Arial, sans-serif;
      background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
+     background-size: 100%;
+     /*width: 960px;*/
+     margin: 0px auto;
 }
 
 
@@ -61,14 +63,73 @@ body {
 
 /* Center the container */
 #container {
-  width: 100%;
+  width: 960px;
   margin: auto;
-  height: 500px;
-
 }
 
 header {
+  height: 500px;
+   width: 960px;
+  margin: auto;
+}
 
+header h1 {
+  padding: 24px 70px;
+
+  color: #fff;
+  font: 24px 'Open Sans', sans-serif;
+  font-weight: 700;
+}  
+
+header h2 {
+  margin: 50px auto;
+  text-align: center;
+
+  color: #fff;
+  font: 24px 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+/*div.button {
+  margin: 0px auto;
+  background-color: #f9e42e;
+  border-radius: 5px;
+
+  height: 30px;
+  width: 130px;
+}*/
+
+div.button {
+  margin: 0px auto;
+  /*height: 30px;*/
+  text-align: center;
+}
+
+.button a {
+  margin: 0px auto;
+  background-color: #f9e42e;
+  border-radius: 5px;
+  padding: 8px 35px; 
+
+  color: #333;
+  font: 14px 'Open Sans', sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  cursor: pointer;    
+}
+
+section.benefits {
+  background-color: #f0efef;
+}
+
+.benefits div{
+  width: 960px;
+  margin: 0px auto;
+}
+
+.benefits h2 {
+  font: 20px 'Open Sans', sans-serif;
+  font-weight: 700;
 }
 
 footer {
