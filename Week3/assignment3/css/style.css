@@ -63,18 +63,13 @@ body {
 
 /* Center the container */
 #container {
-  width: 960px;
+  max-width: 960px;
   margin: auto;
 }
 
-header {
-  height: 500px;
-   width: 960px;
-  margin: auto;
-}
 
 header h1 {
-  padding: 24px 70px;
+  padding: 24px 50px;
 
   color: #fff;
   font: 24px 'Open Sans', sans-serif;
@@ -99,18 +94,19 @@ header h2 {
   width: 130px;
 }*/
 
-div.button {
+button {
+  display: block;
   margin: 0px auto;
   /*height: 30px;*/
   text-align: center;
+  margin-bottom: 150px;
+  background-color: #f9e42e;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 40px; 
 }
 
-.button a {
-  margin: 0px auto;
-  background-color: #f9e42e;
-  border-radius: 5px;
-  padding: 8px 35px; 
-
+button a {
   color: #333;
   font: 14px 'Open Sans', sans-serif;
   font-weight: 700;
@@ -118,22 +114,110 @@ div.button {
   cursor: pointer;    
 }
 
+
+
+
 section.benefits {
   background-color: #f0efef;
 }
 
 .benefits div{
-  width: 960px;
   margin: 0px auto;
+  padding: 60px 400px 20px 60px;
+  max-width: 960px;
 }
 
 .benefits h2 {
+  margin-bottom: 20px;
+
+  color: #121212;
   font: 20px 'Open Sans', sans-serif;
+  font-weight: 500;
+}
+
+.benefits p, ul {
+  margin-bottom: 20px;
+
+  font: 13px 'Open Sans', sans-serif;
+  font-weight: 200;
+}
+
+.benefits ul {
+  margin-left: 40px;
+}
+
+.benefits li {
+  margin: 5px;
+}
+
+li span {
+  font-weight: 800;
+}
+
+
+section.testimonial {
+  background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: 100%;
+  padding: 60px 30%;
+
+  text-align: center;
+}
+.testimonial blockquote {
+  color: #fff;
+  font: italic 18px 'Open Sans', sans-serif;
+  font-weight: 100;
+}
+
+.testimonial h3 {
+  color: #fff;
+  font: 18px 'Open Sans', sans-serif;
+  font-weight: 500;
+}
+
+
+section.signup {
+  background-color: #f9e42e;
+  padding: 20px;
+}
+
+.signup button {
+  background-color: #033048;
+  /*padding: 20px; */
+  margin: 0px auto;
+}
+
+.signup button a {
+  color: white;
+  font-size: 12px;
+}
+
+
+footer {
+  background-color: #222;
+  padding: 20px;
+  text-align: center;
+}
+
+footer h2 {
+  margin: 10px;
+  color: #f9e42e;
+  font: 24px 'Open Sans', sans-serif;
   font-weight: 700;
 }
 
-footer {
+footer img {
+  margin: 20px 10px;
+  max-width: 20px;
+  max-height: 20px;
 
+}
+
+footer h3 {
+  margin: 10px;
+
+  color: #fff;
+  font: 9px 'Open Sans', sans-serif;
+  font-weight: 500; 
 }
 
 /******************************************
