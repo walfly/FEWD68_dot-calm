@@ -1,0 +1,16 @@
+h1 {
+	color: #fff;
+	font: 100px Helvetica;
+	font-weight: 100;
+	text-align: center;
+	text-shadow: 1px 1px 5px #444;
+}
+
+h2 {
+	color: #fff;
+	font: 20px Helvetica;
+	font-weight: 100;
+	text-align: center;
+	text-shadow: 1px 1px 3px #444;
+
+}

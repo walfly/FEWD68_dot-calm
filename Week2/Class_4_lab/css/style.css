@@ -46,14 +46,11 @@ Developer @GA in NYC
 /*******************************************/
 
 body {
-     color: #000;
-     font-size: 12px;
-     line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-     background-size: 100%;
-     /*width: 960px;*/
-     margin: 0px auto;
+   background-color: #eeeeee;
+   color: #606161;
+   font-size: 12px;
+   line-height: 1.4;
+   font-family: 'Open Sans', Arial, sans-serif;
 }
 
 
@@ -63,129 +60,131 @@ body {
 
 /* Center the container */
 #container {
-  max-width: 960px;
   margin: auto;
-}
-
-
-header h1 {
-  padding: 24px 50px;
-
-  color: #fff;
-  font: 24px 'Open Sans', sans-serif;
-  font-weight: 700;
-}  
-
-header h2 {
-  margin: 50px auto;
-  text-align: center;
-
-  color: #fff;
-  font: 24px 'Open Sans', sans-serif;
-  font-weight: 400;
-}
-
-/*div.button {
-  margin: 0px auto;
-  background-color: #f9e42e;
-  border-radius: 5px;
-
-  height: 30px;
-  width: 130px;
-}*/
-
-button {
-  display: block;
-  margin: 0px auto;
-  /*height: 30px;*/
-  text-align: center;
-  margin-bottom: 150px;
-  background-color: #f9e42e;
-  border: none;
-  border-radius: 5px;
-  padding: 8px 40px; 
-}
-
-button a {
-  color: #333;
-  font: 14px 'Open Sans', sans-serif;
-  font-weight: 700;
-  text-decoration: none;
-  cursor: pointer;    
-}
-
-
-
-
-section.benefits {
-  background-color: #f0efef;
-}
-
-.benefits div{
-  margin: 0px auto;
-  padding: 60px 400px 20px 60px;
+  padding-left: 50px;
   max-width: 960px;
 }
 
-.benefits h2 {
-  margin-bottom: 20px;
 
-  color: #121212;
-  font: 20px 'Open Sans', sans-serif;
+header {
+  background-color: #033048;
+}
+header div {
+  padding: 20px 0px;
+}
+header h1 {
+  display: inline-block;
+  vertical-align: top;
+  color: #ffffff;
+  font: 24px 'Open Sans', sans-serif;
+  font-weight: 700;
+}
+header nav {
+  float: right;
+}
+header nav a {
+  padding: 50px 20px;
+  color: #f9e42e;
+  font: 14px 'Open Sans', sans-serif;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+
+section.main {
+  display: inline-block;
+  margin-right: 20px;
+  max-width: 650px;
+  height: 500px;
+}
+.main article {
+  padding: 50px 0px 100px 0px;
+  border-bottom: 2px solid #aaa;
+}
+.main h2 {
+  /*margin-bottom: 10px;*/
+  color: #033048;
+  font: 24px 'Open Sans', sans-serif;
   font-weight: 500;
 }
-
-.benefits p, ul {
-  margin-bottom: 20px;
-
-  font: 13px 'Open Sans', sans-serif;
-  font-weight: 200;
+.main img {
+  margin: 10px 0px;
+  width: 100%;
 }
-
-.benefits ul {
-  margin-left: 40px;
-}
-
-.benefits li {
-  margin: 5px;
-}
-
-li span {
-  font-weight: 800;
-}
-
-
-section.testimonial {
-  background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134,141,157);
-  background-size: 100%;
-  padding: 60px 30%;
-
-  text-align: center;
-}
-.testimonial blockquote {
-  color: #fff;
-  font: italic 18px 'Open Sans', sans-serif;
+.main p {
+  color: #606161;
+  font: 16px 'Open Sans';
   font-weight: 100;
 }
-.testimonial h3 {
-  color: #fff;
-  font: 18px 'Open Sans', sans-serif;
+.main p::first-letter {
+  float: left;
+  margin-top: -10px;
+  margin-bottom: -10px;
+  padding-right: 10px;
+  vertical-align: top;
+  font-size: 60px;
   font-weight: 500;
+}
+.main a {
+  display: inline-block;
+  float: right;
+  margin: 20px 0px;
+  color: #121212;
+  font: 16px 'Open Sans';
+  font-weight: 700;
+  text-decoration: none;
+}
+
+
+section.sidebar {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 50px;
+  max-width: 240px;
+  height: 500px;
+}
+.sidebar h2 {
+  padding: 10px 0px;
+  color: #033048;
+  font: 22px 'Open Sans';
+  font-weight: 700;
+}
+.sidebar img {
+  width: 100%;
+  margin-top: 40px;
+}
+.sidebar li, p, a{
+  font-size: 14px;
+  font-weight: 100;
+}
+.sidebar a {
+  color: #121212;
+  font-weight: 700;
+  text-decoration: none;
 }
 
 
 section.signup {
+  margin-top: 200px;
   background-color: #f9e42e;
   padding: 20px;
+  text-align: center;
 }
 .signup button {
   background-color: #033048;
-  /*padding: 20px; */
+  border: none;
+  border-radius: 5px;
+  padding: 10px 30px; 
   margin: 0px auto;
 }
 .signup button a {
+  text-decoration: none;
   color: white;
   font-size: 12px;
+  font-weight: 700;
+}
+.signup #container {
+  padding: 0px;
 }
 
 
@@ -194,27 +193,26 @@ footer {
   padding: 20px;
   text-align: center;
 }
-
 footer h2 {
   margin: 10px;
   color: #f9e42e;
   font: 24px 'Open Sans', sans-serif;
   font-weight: 700;
 }
-
 footer img {
   margin: 20px 10px;
   max-width: 20px;
   max-height: 20px;
-
 }
-
 footer h3 {
   margin: 10px;
-
   color: #fff;
   font: 9px 'Open Sans', sans-serif;
   font-weight: 500; 
+}
+
+div.lilfix {
+  height: 1px;
 }
 
 /******************************************
