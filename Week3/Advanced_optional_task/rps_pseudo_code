@@ -1,0 +1,52 @@
+
+ROCK-PAPER-SCISSORS PseusoCode
+
+1)	Prompt user for selection.
+	Store user selection.
+
+2)	Generate computer slection.
+	Store computer selection.
+
+3)	Compare slections.
+		If selections are equal
+			then display "Its a tie!"
+			then loop back to step X
+		If selections are not equal and user chooses "rock"
+			THEN:
+				If computer chooses "paper"
+					then display "Paper coveres rock. Computer wins!"
+					then add 1 to the Computer wins value.
+					then loop back to the start.
+				If computer chooses "scissors"
+					then display "Rock crushes scissors. You win!"
+					then add 1 to the User wins value.
+					then loop back to the start.
+		If selections are not equal and user chooses "scissors"
+			THEN:
+				If computer chooses "rock"
+					then display "Rock crushes scissors. Computer wins!"
+					then add 1 to the Computer wins value.
+					then loop back to start.
+				If computer chooses "paper"
+					then displat "Scissors cut paper. You win!"
+					then add 1 to the User wins value.
+					then loop back to start.
+		If seclection are not equal and user chooses "paper"
+			THEN:
+				If computer chooses "rock"
+					then display "Paper covers rock. You win!"
+					then add 1 to the User wins value.
+					then loop back to start.
+				If computer chooses "scissors"
+					then display "Scissors cut paper. Computer wins!"
+					then add 1 to the Computer wins value.
+					then loop back to start. 
+		Else
+			THEN:
+			display "Error"
+			loop back to start.
+
+4)	If the sum of Computer wins value and User wins value is greater than 100
+		THEN:
+			display "Find something better to do with your time..."
+			then close window.
