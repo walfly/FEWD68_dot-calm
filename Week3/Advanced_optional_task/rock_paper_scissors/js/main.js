@@ -1,23 +1,9 @@
 console.log(".js properly linked");
 
-var computerChoice = "no chioce"
+var CHOICES = ['rock', 'paper', 'scissors'];
 
 var computerChoiceGenerator = function() {
-	var computerNumber = Math.random();
-	console.log(computerNumber);
-
-	if (computerNumber < 0.33) {
-		computerChoice = "rock";
-		console.log("The computer chose: " + computerChoice);
-	}
-	else if (computerNumber < 0.66) {
-		computerChoice = "paper";
-		console.log("The computer chose: " + computerChoice);
-	}
-	else {
-		computerChoice = "scissors";
-		console.log("The computer chose: " + computerChoice)
-	}
+	return CHOICES[Math.floor(Math.random() * 3)];
 }
 
 var hScore = 0
@@ -31,7 +17,7 @@ function rockSelected() {
 		console.log("You clicked Rock")
 	var userChoice = "rock";
 		console.log(userChoice);
-	computerChoiceGenerator()
+	var computerChoice = computerChoiceGenerator()
 
 	if (computerChoice === userChoice) {
 		document.getElementById("status").innerHTML = "Computer chose: " + computerChoice + "<br>" + "IT'S A TIE :/";
